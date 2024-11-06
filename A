@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PortalHub - Tu portal a una nueva experiencia de juego sin límites. Conecta tus juegos favoritos y comparte tu progreso.">
+    <title>PortalHub - Conecta tus juegos favoritos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="PortalHub">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#features">Características</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a PortalHub</h1>
+            <p>Tu portal a una nueva experiencia de juego sin límites. Conecta tus juegos favoritos y lleva tu progreso a cualquier mundo.</p>
+            <a href="#features" class="cta-button">Explorar</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Características de PortalHub</h2>
+        <div class="feature-cards">
+            <div class="feature-card">
+                <h3>Conexión Interconectada</h3>
+                <p>Transporta tus logros y recompensas entre juegos, creando una experiencia continua sin barreras.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Explora Nuevos Mundos</h3>
+                <p>Viaja a diferentes mundos de juego sin perder tu progreso. Un solo lugar para todos tus juegos favoritos.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Personalización Total</h3>
+                <p>Define tu avatar y tu experiencia de juego, llevándola a nuevos niveles con PortalHub.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Acerca de PortalHub</h2>
+        <p>PortalHub es un ecosistema multijuego que conecta tu progreso entre títulos, creando una experiencia unificada. Desde RPGs hasta shooters, cada juego puede formar parte de tu aventura continua.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contacta con Nosotros</h2>
+        <form>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo" required>
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 PortalHub. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
